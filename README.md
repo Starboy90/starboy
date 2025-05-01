@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **MERN full stack developer**
 
-- 💬 Ask me about **Mechanical Engineer with a strong passion for technology, currently working as a Frontend Developer. Skilled in combining technical problem-solving with modern web development to create clean, responsive user interfaces.**
+- 💬 About Me **Mechanical Engineer with a strong passion for technology, currently working as a Frontend Developer. Skilled in combining technical problem-solving with modern web development to create clean, responsive user interfaces.**
 
 - 📫 How to reach me **sohilkhan12303@gmail.com**
 
