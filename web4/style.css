@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+/* header css */
+header{
+    text-align: center;
+    line-height: 70px;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    letter-spacing: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px; 
+
+}
+
+/* nav css */
+
+nav{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    
+
+}
+
+/* logo css */
+
+.logo{
+
+    text-align: center;
+    flex-grow: 2;
+    font-size: 50px;
+    font-weight: 600s;
+    font-family: fantasy;
+    letter-spacing: 2px;
+
+}
+
+/* navbar css */
+
+.navbar{
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-size: 22px;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aquamarine;
+
+}
+
+.navbar a:hover{
+
+    color: brown;
+}
+/* section  main css */
+
+.main{
+    width: 95%;
+    height: 600px;
+    background-image: url("images/backwater.jpg");
+    margin: auto;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+
+    
+
+}
+
+/* main-ttile css*/
+
+.main-title {
+
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+
+   
+    
+}
+
+/* main-benefites css*/
+
+.main-benefits{
+    color: aliceblue;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    word-spacing: 5px;
+
+}
+
+/* section  main introduction */
+
+.main-intro{
+    width: 100%;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    align-items :center;
+   
+
+}
+
+.main-intro > div{
+ color: rgb(255, 255, 255);
+}
+/* section  main introduction  span */
+
+.main-intro span{
+    
+    width: 50%;
+    font-size: 50px;
+
+}
+
+/* section  main introduction  span */
+
+.main-intro .data{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    flex-grow: auto;
+    width: 99%;
+    padding: 5px;
+
+
+}
+/* section  two about */
+.about {
+    width: 95%;
+    height: 600px;
+    background-image: url("images/making.jpg");
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+  
+/* section  two  avout span  */
+
+.about span {
+    color: aliceblue;
+    text-align: center;
+    position: sticky;
+    top: 75%;  /* Adjust this value based on your layout */
+    transform: translateY(-50%); /* Centers it vertically */
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+/* section two about 1 */
+
+.about-1{
+    width: 100%;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    align-items :center;
+    
+  
+
+}
+
+.about-1 > div{
+ color: rgb(255, 255, 255);
+}
+/* section  two about 1 span */
+
+.about-1 span{
+    
+    width: 50%;
+    font-size: 50px;
+    font-family: monospace;
+
+}
+
+/* section  two about 1 data 2 */
+
+.data-2{
+    
+    display: flex;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    gap: 30px; /* Adjust this value to increase/decrease space between columns */
+    text-align: justify;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+/* section  three contact */
+
+.contact{
+    padding: 50px 0;
+    color: rgb(137, 12, 12);
+    background-color: black;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contactlogo{
+width: 50%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: auto;
+font-size: 40px;
+padding-left: 50px;
+
+}
+.contact-info{
+
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: end;
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CONTACT PAGE CSS MAIN */
+
+.contact-page{
+    width: 95%;
+    height: 600px;
+    background-image: url("images/backwater.jpg");
+    margin: auto;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-color: black;
+    color: aliceblue;
+   
+
+
+}
+
+.contact-container{
+    
+    width: 90%;
+    height: auto;
+    background-color:rgba(0, 0, 0,.5);
+    border-radius: 25px;    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-container span{
+    position: relative;
+    margin-top: 50px;
+    color: brown;
+    text-transform: uppercase;
+}
+
+.contact-info2{ 
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.D1{
+width:100%;
+text-align: left;
+margin-top: 35px;
+
+}
+
+#l-name{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: brown;
+    padding: 2px;
+}
+
+#l-input{
+    width: 92%;
+    height: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: rgb(3, 3, 38);
+    background-color: rgb(253, 253, 253);
+    border: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.D2{
+
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.D3 button{
+width: 200px;
+background-color: brown;
+color: aliceblue;
+font-weight: 800;
+margin-top: 25px;
+padding: 10px;
+font-size: large;
+letter-spacing: 2px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 25px;
+border: none;
+text-transform: uppercase;
+margin-bottom: 30px;;
+
+
+}
+
+.D3 button:hover{
+
+    box-shadow: 5px;
+    color: black;
+    background-color: aliceblue;
+
+}
+.D4{
+
+
+position: absolute;
+top: 355PX;
+
+}
+
+#D4{
+
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* code for moblie view */
+
+/* Responsive for Tablets */
